@@ -1,0 +1,8 @@
+//
+// Created by Mathias_ktc on 29/04/2024.
+//
+
+#ifndef TUTOGIT_HUGEFLOATOPERATOR_H
+#define TUTOGIT_HUGEFLOATOPERATOR_H
+
+#endif //TUTOGIT_HUGEFLOATOPERATOR_H

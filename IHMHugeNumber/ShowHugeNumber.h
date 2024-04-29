@@ -1,8 +1,10 @@
-//
-// Created by Mathias_ktc on 29/04/2024.
-//
+#ifndef SHOW_HUGE_NUMBER
+#define SHOW_HUGE_NUMBER
 
-#ifndef TUTOGIT_SHOWHUGENUMBER_H
-#define TUTOGIT_SHOWHUGENUMBER_H
+#include "../UseHugeNumber/Type/HugeFloat.h"
+#include "../UseHugeNumber/Type/HugeInt.h"
+#include "../UseHugeNumber/Type/HugeUnsignedInt.h"
 
-#endif //TUTOGIT_SHOWHUGENUMBER_H
+extern void printHugeUnsignedInt (const HugeUnsignedInt* hugeUnsignedInt);
+
+#endif // !SHOW_HUGE_NUMBER

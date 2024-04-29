@@ -9,4 +9,11 @@ add_executable(tutogit main.c
         UseHugeNumber/Type/HugeInt.c
         UseHugeNumber/Type/HugeInt.h
         UseHugeNumber/Type/HugeUnsignedInt.c
-        UseHugeNumber/Type/HugeUnsignedInt.h)
+        UseHugeNumber/Type/HugeUnsignedInt.h
+        DataTypes/DoublyLinkedList.c
+        DataTypes/DoublyLinkedList.h
+        IHMHugeNumber/ScanHugeNumber.c
+        IHMHugeNumber/ScanHugeNumber.h
+        IHMHugeNumber/ShowHugeNumber.c
+        IHMHugeNumber/ShowHugeNumber.h)
+

@@ -1,8 +1,18 @@
-//
-// Created by thoma on 29/04/2024.
-//
+#ifndef HUGE_FLOAT
+#define HUGE_FLOAT
 
-#ifndef TUTOGIT_HUGEFLOAT_H
-#define TUTOGIT_HUGEFLOAT_H
+#include "HugeInt.h"
 
-#endif //TUTOGIT_HUGEFLOAT_H
+typedef struct HugeFloat {
+    HugeInt* significand;
+    HugeInt* exponent;
+} HugeFloat;
+
+extern HugeFloat* createHugeFloat              (void);
+extern HugeFloat* createHugeFloatFromString    (const char* significandString, const char* exponentString);
+extern HugeFloat* createHugeFloatFromHugeInts  (const HugeInt* significandHugeInt, const HugeInt* exponentSHugeInt);
+extern HugeFloat* createHugeFloatFromHugeFloat (const HugeFloat* hugeFloat, const unsigned int size);
+extern void       deleteHugeFloat              (const HugeFloat* hugeFloat);
+extern int        getHugeFloatLength           (const HugeFloat* hugeFloat);
+
+#endif // !HUGE_FLOAT

@@ -6,7 +6,6 @@
 #define SIZE_OF_EXPONENT_MARKUP 2
 #define EXPONENT_MARKUP " E"
 
-
 void printHugeUnsignedInt (const HugeUnsignedInt* hugeUnsignedInt) {
     char* hugeUnsignedIntString = HugeUnsignedIntToString (hugeUnsignedInt);
     printf ("%s\n", hugeUnsignedIntString);
